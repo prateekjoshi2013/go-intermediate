@@ -1,0 +1,6 @@
+- zero values are default values to unassigned variables:
+  - int,float - 0
+  - string - ""
+  - rune - ''
+  - bool - false
+  - complex - 0 for imag and real part
