@@ -13,7 +13,14 @@ func main() {
 		age  int
 	}
 
-	f:= firstPerson{}
-	s:= secondPerson{}
-	fmt.Println(f==firstPerson(s))
+	f := firstPerson{}
+	s := secondPerson{}
+	fmt.Println(f == firstPerson(s))
+	x := 10
+	if x > 5 {
+		x, y := 5, 20
+		fmt.Println(x, y)
+	}
+	fmt.Println(x)
+
 }
